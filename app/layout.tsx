@@ -33,23 +33,6 @@ export const metadata: Metadata = {
     description: "Search and compare flights from hundreds of airlines. Find the best prices with our intuitive flight search engine.",
     creator: "@skysearch",
   },
-  icons: {
-    icon: [
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
 }
 
 export const viewport: Viewport = {
