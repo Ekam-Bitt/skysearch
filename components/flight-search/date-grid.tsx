@@ -194,7 +194,7 @@ export function DateGrid({ searchParams, flights, filteredFlights, onDateSelect 
                   const invalid = new Date(retDate) <= new Date(depDate)
 
                   if (invalid || !cell) {
-                    return <div key={`${depDate}_${retDate}`} className="h-11 border-b border-r border-border bg-muted/10 flex items-center justify-center"><span className="text-muted-foreground/30 text-xs">—</span></div>
+                    return <div key={`${depDate}_${retDate}`} className="h-11 border-b border-r border-border bg-muted/10 flex items-center justify-center"><span className="text-muted-foreground/30 text-xs">-</span></div>
                   }
 
                   return (

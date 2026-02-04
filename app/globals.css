@@ -3,6 +3,22 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/*
+ * DESIGN SYSTEM TOKENS
+ * ====================
+ * 
+ * TYPE SCALE (Tailwind defaults):
+ *   text-xs:   12px    text-lg:   18px    text-3xl:  30px
+ *   text-sm:   14px    text-xl:   20px    text-4xl:  36px
+ *   text-base: 16px    text-2xl:  24px    text-5xl:  48px
+ *
+ * BORDER RADIUS (from --radius: 0.75rem):
+ *   radius-sm: 8px   radius-md: 10px   radius-lg: 12px   radius-xl: 16px
+ *
+ * SHADOWS: Use shadow-sm (default), shadow-md (hover), shadow-lg (elevated)
+ * EASING: ease-out for interactions, ease-linear for sidebar transitions
+ */
+
 :root {
   /* Clean, modern travel palette - deep navy primary with warm accents */
   --background: oklch(0.985 0.002 240);
